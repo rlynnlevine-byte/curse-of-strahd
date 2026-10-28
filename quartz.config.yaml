@@ -1,16 +1,11 @@
 # yaml-language-server: $schema=./quartz/plugins/quartz-plugins.schema.json
 configuration:
-  pageTitle: Quartz 5
-  pageTitleSuffix: ""
-  enableSPA: true
-  enablePopovers: true
-  analytics:
-    provider: plausible
-  locale: en-US
-  baseUrl: rlynnlevine-byte.github.io/curse-of-strahd
+  pageTitle: "Curse of Strahd"
+  baseUrl: "rlynnlevine-byte.github.io/curse-of-strahd"
   ignorePatterns:
     - private
     - templates
+    - .obsidian
   theme:
     fontOrigin: googleFonts
     cdnCaching: true
@@ -40,15 +35,6 @@ configuration:
         highlight: "rgba(158, 42, 43, 0.2)"
         textHighlight: "rgba(196, 69, 54, 0.4)"
 plugins:
-  - source: "@quartz-community/created-modified-date"
-    enabled: true
-    options:
-      defaultDateType: modified
-      priority:
-        - frontmatter
-        - git
-        - filesystem
-    order: 10
   - source: "@quartz-community/syntax-highlighting"
     enabled: true
     options:
@@ -110,7 +96,7 @@ plugins:
   - source: "@quartz-community/quartz-fonts"
     enabled: true
   - source: "@quartz-themes/core"
-    enabled: true
+    enabled: false
     options:
       theme: its-theme
       variation: ttrpg-dnd
