@@ -1,3 +1,7 @@
+---
+Title: Curse of Strahd
+---
+
 [[Curse of Strahd MOC]]
 
 # Session Notes

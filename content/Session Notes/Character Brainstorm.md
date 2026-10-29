@@ -1,5 +1,6 @@
 Goldie- guard commander
 kathryn- soldier who couldn't hack it, goldie's character kicked them out
+ray- dhampir wizard whose mentor was responsible for protection wards around Baikal
 we were recruited to become a party after the accident, can get intel from that, motivation to join together
 party may not know that goldie's character is reborn
 party for 3 years
