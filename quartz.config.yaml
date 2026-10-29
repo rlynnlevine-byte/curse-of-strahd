@@ -2,6 +2,7 @@
 configuration:
   pageTitle: "Curse of Strahd"
   baseUrl: "rlynnlevine-byte.github.io/curse-of-strahd"
+  pageTitleSuffix: " | Curse of Strahd"
   ignorePatterns:
     - private
     - templates
